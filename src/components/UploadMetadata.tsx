@@ -58,7 +58,7 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">IPFS provider token</div>
-              <p>Token used to upload your data to IPFS.</p>
+              {/* <p>Token used to upload your data to IPFS.</p>
               <p>Currently only Web3.Storage supported.</p>
               <p>
                 You can get one
@@ -71,7 +71,7 @@ export const UploadMetadata: FC = () => {
                   {" here "}
                 </a>
                 for free.
-              </p>
+              </p> */}
             </div>
             <div className="m-auto p-2">
               <input
@@ -83,7 +83,7 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">Token icon</div>
-              <p>Image file of your future token.</p>
+              {/* <p>Image file of your future token.</p> */}
             </div>
 
             <div className="flex p-2">
@@ -128,7 +128,7 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">Token symbol</div>
-              <p>{"Abbreviated name (e.g. Solana -> SOL)."}</p>
+              {/* <p>{"Abbreviated name (e.g. Solana -> SOL)."}</p> */}
             </div>
             <div className="m-auto p-2">
               <input
@@ -140,7 +140,7 @@ export const UploadMetadata: FC = () => {
           <div className="mt-4 sm:grid sm:grid-cols-2 sm:gap-4">
             <div className="m-auto p-2">
               <div className="text-xl font-normal">Token description</div>
-              <p>Few words about your token purpose.</p>
+              {/* <p>Few words about your token purpose.</p> */}
             </div>
             <div className="m-auto p-2">
               <input

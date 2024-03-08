@@ -34,9 +34,9 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
     () => [
       new PhantomWalletAdapter(),
       new SolflareWalletAdapter(),
-      new SolletWalletAdapter({ network }),
-      new SolletExtensionWalletAdapter({ network }),
-      new TorusWalletAdapter(),
+      // new SolletWalletAdapter({ network }),
+      // new SolletExtensionWalletAdapter({ network }),
+      // new TorusWalletAdapter(),
       // new LedgerWalletAdapter(),
       // new SlopeWalletAdapter(),
     ],
