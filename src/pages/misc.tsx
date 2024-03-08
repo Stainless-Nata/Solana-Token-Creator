@@ -6,7 +6,7 @@ const Misc: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>Solana Token Creator - Miscellaneous</title>
+        <title>Solana Token Creator</title>
         <meta name="description" content="Additional Functionality" />
       </Head>
       <MiscView />

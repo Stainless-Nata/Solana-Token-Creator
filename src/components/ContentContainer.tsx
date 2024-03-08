@@ -29,11 +29,11 @@ export const ContentContainer: FC = (props) => {
               <a>Upload metadata</a>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="/misc">
               <a>Miscellaneous</a>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

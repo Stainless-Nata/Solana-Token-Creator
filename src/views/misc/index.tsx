@@ -28,9 +28,9 @@ export const MiscView: FC = ({}) => {
   return (
     <div className="mx-auto p-4 md:hero">
       <div className="flex flex-col md:hero-content">
-        <h1 className="bg-gradient-to-tr from-[#9945FF] to-[#14F195] bg-clip-text text-center text-5xl font-bold text-transparent">
+        {/* <h1 className="bg-gradient-to-tr from-[#9945FF] to-[#14F195] bg-clip-text text-center text-5xl font-bold text-transparent">
           Miscellaneous
-        </h1>
+        </h1> */}
         {/* CONTENT GOES HERE */}
         <div className="text-center">
           {wallet && <p>SOL Balance: {(balance || 0).toLocaleString()}</p>}

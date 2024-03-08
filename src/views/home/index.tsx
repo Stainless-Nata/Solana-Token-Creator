@@ -24,14 +24,14 @@ export const HomeView: FC = ({}) => {
               Upload token metadata to IPFS
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               className="cursor-pointer bg-gradient-to-tr bg-clip-text text-transparent hover:from-pink-500 hover:to-yellow-500"
               href="./misc"
             >
               {"Request airdrop if needed (only for devnet)"}
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               className="cursor-pointer bg-gradient-to-tr bg-clip-text text-transparent hover:from-pink-500 hover:to-yellow-500"
